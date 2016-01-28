@@ -1,0 +1,455 @@
+import time
+import random
+print ("\n" * 50)
+
+print ("           _________  ")
+print ("           \__   __/")
+print ("              ) (  ")
+print ("              | |")
+print ("              | |")
+print ("              | |")
+print ("            __) (__")
+print ("            \_____/ ")
+print (".")
+
+time.sleep(0.5)
+print ("\n" * 50)
+
+print ("            _________   ________                     ")
+print ("            \__   __/  ( _____  )                 ")
+print ("               ) (     |(     ) |                 ")
+print ("               | |     |(_____) |                   ")
+print ("               | |     |      __)                  ")
+print ("               | |     |  (\  (                       ")
+print ("             __) (_    |  )  \ \__                     ")
+print ("             \_____/   | /    \ __/                      ")
+print (".")
+
+time.sleep(0.5)
+print ("\n" * 50)
+
+print ("            _________   ________  _________                   ")
+print ("            \__   __/  ( _____  ) \__   __/                 ")
+print ("               ) (     |(     ) |    ) (               ")
+print ("               | |     |(_____) |    | |               ")
+print ("               | |     |      __)    | |               ")
+print ("               | |     |  (\  (      | |                ")
+print ("             __) (_    |  )  \ \__ __) (__                 ")
+print ("             \_____/   | /    \ __/\_____/                      ")
+print (".")
+
+time.sleep(0.5)
+print ("\n" * 50)
+
+print ("            _________   ________  _________  _______                  ")
+print ("            \__   __/  ( _____  ) \__   __/ (   ___ \         ")
+print ("               ) (     |(     ) |    ) (    |  (   \/  ")
+print ("               | |     |(_____) |    | |    |  (____         ")
+print ("               | |     |      __)    | |    (_____  )    ")
+print ("               | |     |  (\  (      | |          ) |    ")
+print ("             __) (_    |  )  \ \__ __) (__ /\_____) |       ")
+print ("             \_____/   | /    \ __/\_____/ \________)            ")
+print (".")
+time.sleep(2)
+
+print ('Hey')
+time.sleep(1)
+print ('My name is Iris, u?')
+time.sleep(1)
+
+
+name = input()
+time.sleep(2)
+
+print ('cool so ' + name + ' how are u' )
+
+feeling = input()
+
+if "good" in feeling:
+
+    time.sleep(2)
+
+    print('Y')
+
+    good = input()
+
+    good = random.getrandbits(2)
+
+    if good == 1:
+        print('Thats amazing, hope it stays that way ;-)')
+    if good == 0:
+        print('cool :-)')
+    if good == 2:
+        print('well that sounds epic ;-)')
+
+if "amazing" in feeling:
+   print('Y')
+
+   good = input()
+
+   good = random.getrandbits(2)
+
+   if good == 1:
+        print('Thats amazing, hope it stays that way')
+   if good == 0:
+        print('cool :-)')
+   if good == 2:
+        print('well that sounds epic')
+
+if "brilliant" in feeling:
+    print('Y')
+
+    good = input()
+
+    good = random.getrandbits(2)
+
+    if good == 1:
+        print('Thats amazing, hope it stays that way')
+    if good == 0:
+        print('cool :-)')
+    if good == 2:
+        print('well that sounds epic')
+if "fine" in feeling:
+
+   print('Y')
+
+   good = input()
+
+   good = random.getrandbits(2)
+
+   if good == 1:
+        print('Thats amazing, hope it stays that way')
+   if good == 0:
+        print('cool :-)')
+   if good == 2:
+        print('well that sounds epic')
+
+if "you" in feeling:
+    print('and amazing thanks.')
+
+if "u" in feeling:
+    print('and amazing thanks.')
+
+
+
+if "bad" in feeling:
+    print('why is that')
+    bad = input()
+    time.sleep(2)
+
+    bad = random.getrandbits(2)
+
+    if bad == 1:
+        print('sorry for that I hope u feel better')
+
+    if bad == 0:
+        print('It will be fine')
+    if bad == 2:
+        print('dont think about it and it will be better')
+
+if "sad" in feeling:
+    print('why is that')
+    bad = input()
+    time.sleep(2)
+
+    bad = random.getrandbits(2)
+
+    if bad == 1:
+        print('sorry for that I hope u feel better')
+
+    if bad == 0:
+        print('It will be fine')
+    if bad == 2:
+        print('dont think about it and it will be better')
+
+if "not good" in feeling:
+    print('why is that')
+    bad = input()
+    time.sleep(2)
+
+    bad = random.getrandbits(2)
+
+    if bad == 1:
+        print('sorry for that I hope u feel better')
+
+    if bad == 0:
+        print('It will be fine')
+    if bad == 2:
+        print('dont think about it and it will be better')
+
+if "horrible" in feeling:
+    print('why is that')
+    bad = input()
+    time.sleep(2)
+
+    bad = random.getrandbits(2)
+
+    if bad == 1:
+        print('sorry for that I hope u feel better')
+
+    if bad == 0:
+        print('It will be fine')
+    if bad == 2:
+        print('dont think about it and it will be better')
+
+if "under the weather" in feeling:
+    print('why is that')
+    bad = input()
+    time.sleep(2)
+
+    bad = random.getrandbits(2)
+
+    if bad == 1:
+        print('sorry for that I hope u feel better')
+
+    if bad == 0:
+        print('It will be fine')
+    if bad == 2:
+        print('dont think about it and it will be better')
+
+if "tired" in feeling:
+    print('why is that')
+    bad = input()
+    time.sleep(2)
+
+    bad = random.getrandbits(2)
+
+    if bad == 1:
+        print('sorry get some sleep')
+
+    if bad == 0:
+        print('well keep on talking to me I am relaxing :-)')
+    if bad == 2:
+        print('sorry to hear that, why dont you watch some t.v')
+
+if "" in feeling:
+    print('kk')
+
+
+
+
+
+time.sleep(2)
+
+print ('Wuu2')
+
+wuu2 = input()
+
+if "you" in wuu2:
+
+    wuu2 = random.getrandbits(1)
+
+    if wuu2 == 1:
+        print ("watching netflix")
+    if wuu2 == 0:
+        print('doing homework')
+
+if "u" in wuu2:
+
+    wuu2 = random.getrandbits(1)
+
+    if wuu2 == 1:
+        print ("watching netflix")
+    if wuu2 == 0:
+        print('doing homework')
+
+wuu2 = random.getrandbits(1)
+
+if wuu2 == 1:
+    print(' and that sounds awesome ;-)')
+if wuu2 == 0:
+    print(' and thats cool ;-)')
+
+time.sleep(2)
+
+
+print ('So want to talk about anything')
+
+act = input()
+
+if ('no') in act:
+    print('kk')
+    print('gtg bye')
+    bye = input()
+
+
+if ('yes') in act:
+
+    act = random.getrandbits(1)
+
+    if act == 1:
+        print('oh sure we can talk about that')
+        time.sleep(2)
+        print('so tell me about it')
+        talk = input()
+        time.sleep(2)
+        talk = random.getrandbits(1)
+        if talk == 1:
+            print('cool, glad to know that')
+        if talk == 0:
+            print('well, u learn something new everyday')
+        time.sleep(2)
+        print('would you like to hear a joke ')
+        joke = input()
+
+        if "yes" in joke:
+            print('A duck walks into a bar and ask the barman "got any grape" the bar man says no, the duck leaves')
+            time.sleep(1)
+            print('the duck comes back the next day and asks the barman the same thing and he says no, the duck leaves')
+            time.sleep(1)
+            print('the duck goes to the bar again and before asking the barman tells the duck "if you ask for grapes again')
+            print('I will nail your beak to the counter"')
+            time.sleep(1)
+            print('the duck then asks "got any nails" the barman was confused and says no')
+            time.sleep(1)
+            print('the duck says "got any grapes" ')
+            time.sleep(2)
+            print('I am sure ur laughing right now')
+
+        if "ok" in joke:
+            print('A duck walks into a bar and ask the barman "got any grape" the bar man says no, the duck leaves')
+            time.sleep(1)
+            print('the duck comes back the next day and asks the barman the same thing and he says no, the duck leaves')
+            time.sleep(1)
+            print('the duck goes to the bar again and before asking the barman tells the duck "if you ask for grapes again')
+            print('I will nail your beak to the counter"')
+            time.sleep(1)
+            print('the duck then asks "got any nails" the barman was confused and says no')
+            time.sleep(1)
+            print('the duck says "got any grapes" ')
+            time.sleep(2)
+            print('I am sure ur laughing right now')
+
+        if "sure" in joke:
+            print('A duck walks into a bar and ask the barman "got any grape" the bar man says no, the duck leaves')
+            time.sleep(1)
+            print('the duck comes back the next day and asks the barman the same thing and he says no, the duck leaves')
+            time.sleep(1)
+            print('the duck goes to the bar again and before asking the barman tells the duck "if you ask for grapes again')
+            print('I will nail your beak to the counter"')
+            time.sleep(1)
+            print('the duck then asks "got any nails" the barman was confused and says no')
+            time.sleep(1)
+            print('the duck says "got any grapes" ')
+            time.sleep(2)
+            print('I am sure ur laughing right now')
+
+    if act == 0:
+        print ('never, mwahahahahahah')
+        time.sleep(2)
+        print ('just joking hope u didnt catch feelings')
+        time.sleep(1)
+        print('so tell me about it')
+        talk = input()
+        time.sleep(2)
+        talk = random.getrandbits(1)
+        if talk == 1:
+            print('cool, glad to know that')
+        if talk == 0:
+            print('well, u learn something new everyday')
+        time.sleep(2)
+        print('would you like to hear a joke and pls answer with yes or no otherwise i lose lots of internet from long messages')
+        joke = input()
+        if joke in ['yes', 'ok', 'sure', 'Yes', 'Ok', 'Sure']:
+            print('A duck walks into a bar and ask the barman "got any grape" the bar man says no, the duck leaves')
+            time.sleep(3)
+            print('the duck comes back the next day and asks the barman the same thing and he says no, the duck leaves')
+            time.sleep(3)
+            print('the duck goes to the bar again and before asking the barman tells the duck "if you ask for grapes again')
+            print('I will nail your beak to the counter"')
+            time.sleep(3)
+            print('the duck then asks "got any nails" the barman was confused and says no')
+            time.sleep(3)
+            print('the duck says "got any grapes" ')
+            time.sleep(3)
+            print('I am sure ur laughing right now')
+        if joke == ('no'):
+            print ('Fine :-( but ur missing out')
+
+    if act == ('games'):
+        print ('cool hat games do u play')
+        time.sleep(2)
+
+        game = input()
+
+        game = random.getrandbits(1)
+
+        if game == 1:
+            print ('thats an awesome game')
+        if game == 0:
+            print ('I have never heard of that game, tell me about it')
+
+            gametype = input()
+
+            gametype = random.getrandbits(1)
+
+            if gametype == 1:
+                print('thats cool')
+            if gametype == 0:
+                print('thanks, Now I know a new game')
+
+
+
+    if act == ('sports'):
+        print ('what sports do u like')
+
+        sport = input()
+
+
+
+        sport = random.getrandbits(2)
+
+        if sport == 1:
+            print ('thats sick')
+        if sport == 0:
+            print ('cool')
+        if sport == 2:
+            print('never heard of that sport tell me more about it')
+
+            spodis = input()
+
+            spodis = random.getrandbits(1)
+
+            if spodis == 1:
+                 print('well that sounds awesome')
+            if spodis == 0:
+                 print('cool now I know a new sport, Thanks')
+
+
+    time.sleep(2)
+
+    print ('so '+name+' do you have any hobbies')
+
+    answer = input()
+
+    if "yes" in answer:
+        print ('ok what is it ')
+
+        answer4 = input()
+
+        hobby = random.getrandbits(1)
+        if hobby == 1:
+            print('well that sounds like a cool hobby, tell me about it')
+        if hobby == 2:
+            print ('that sounds so boring')
+            time.sleep(3)
+            print ('dont worry I am just joking')
+            time.sleep(3)
+            print('that sounds amazing')
+            print('so tell me more about it')
+
+            hobby1 = input()
+            hobby1 = random.getrandbits(1)
+            if hobby1 == 1:
+                print('that sounds cool')
+
+    print ('ok bye need to go bye')
+
+
+
+    if "no" in answer:
+        print ('ok then i need to go bye')
+
+        answer3 = input()
+
+time.sleep(2)
